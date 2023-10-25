@@ -1,0 +1,16 @@
+.profile-title-container {
+    height: 66px;
+}
+
+.profile-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.profile-title-para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}

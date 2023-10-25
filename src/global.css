@@ -1,0 +1,1073 @@
+.chatbox {
+    position: relative;
+}
+
+.chat-receive {
+    background-color: #757DE8;
+}
+
+.chat-send {
+    background-color: #F6F6F6;
+}
+
+.mesasge-type-container {
+    position: absolute;
+    bottom: 20px;
+    width: 55%;
+}
+
+.message-type-area {
+    border: 1px solid #F5F6F7;
+    background-color: white;
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+label {
+    font-family: "Roboto" !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #4D5E80;
+    line-height: 20px;
+}
+
+.form-container {
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+.welcome-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    color: var(--primary-1) !important;
+}
+
+.below-welcome {
+    font-size: 12px;
+    color: var(--text-3) !important;
+    line-height: 22px;
+}
+
+.input-box {
+    border: none !important;
+    height: 35px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.sign-in-button {
+    background-color: #757DE8;
+    border: none;
+    color: white;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: "Roboto";
+}
+
+.google-button {
+    background-color: white;
+    border: none;
+    color: #757DE8;
+    font-size: 12px
+}
+
+.phone-icon{
+   width: 20px !important;
+}
+
+.remember-password {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.forget-password {
+    font-weight: 800;
+    color: #757DE8;
+}
+
+.freelance-card {
+    border: 2px solid white;
+}
+
+.freelance-card:hover {
+    border: 2px solid #757DE8 !important;
+}
+
+.username-text {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Lato";
+}
+
+.availablity-text {
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+}
+
+.job-skills-green {
+    color: #28A745;
+    background-color: #EAFFEF;
+}
+
+.job-skills-yellow {
+    color: #898C00;
+    background-color: #FFF7E0;
+}
+
+.job-skills-grey {
+    color: #6B7A99;
+    background-color: #E7ECFF;
+}
+
+.project-details {
+    background-color: #F5F6FF;
+}
+
+.hourly-rate {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757DE8;
+}
+
+.more-details-button {
+    box-shadow: none;
+    border: 2px solid #F5F6F7;
+    background-color: white;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.custom-label {
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    font-family: "Lato" !important;
+    color: #4D5E80 !important;
+}
+
+.ib-placeholder {
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    font-family: "Lato" !important;
+    color: #7D8FB3 !important;
+}
+
+.ib-placeholder::placeholder {
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    font-family: "Lato" !important;
+    color: #7D8FB3 !important;
+}
+
+.custom-radio:checked {
+    background-color: #757DE8 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.custom-radio:active .custom-radio {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.congrats-text {
+    font-weight: 500;
+    font-size: 18px;
+    
+    font-family: "Lato";
+}
+
+.below-congrats {
+    font-weight: 400;
+    font-size: 14px;
+     
+    color: #5C5C5C;
+    font-family: "Lato";
+}
+
+
+/* Track (the area where the scrollbar is located) */
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust the width of the scrollbar */
+}
+
+
+/* Handle (the draggable part of the scrollbar) */
+
+ ::-webkit-scrollbar-thumb {
+    background: #D9D9D9;
+    /* Change to your desired color */
+    border-radius: 5px;
+    /* Adjust the radius for a rounded appearance */
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #D9D9D9;
+    /* Change to the same color as normal to maintain consistency */
+}
+
+
+/* Track when the scrollbar is not hovered */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Change to the background color you prefer */
+    border-radius: 5px;
+    /* Match the radius for consistency */
+}
+
+
+/* Track on hover */
+
+ ::-webkit-scrollbar-track:hover {
+    background: #f1f1f1;
+    /* Change to the same color as normal to maintain consistency */
+}
+
+
+/* Set the maximum height for the scrollbar */
+
+.modal-body {
+    max-height: 90%;
+    /* Adjust as needed */
+    overflow-y: auto;
+}
+
+.below-greeting-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Lato";
+}
+
+.freelancer-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #000000;
+}
+
+.experience-text {
+    font-style: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.recent-job-post-text {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 20px;
+    color: #7D8FB3;
+    font-weight: 700;
+}
+
+.recent-job-post-secondary-text {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 20px;
+    color: #7D8FB3;
+    font-weight: 400;
+}
+
+.chat-anchor {
+    color: #3C4C97;
+    border-bottom: 1px solid #3C4C97;
+    font-weight: 700;
+}
+
+.chats-available {
+    background-color: #FCFCFC;
+}
+
+.chat-username {
+    font-size: 14px;
+    font-family: "Lato";
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.chat-time {
+    color: #627D98 !important;
+    font-size: 10px;
+}
+
+.chat-message {
+    font-size: 12px;
+    color: #334E68;
+    font-weight: 400;
+}
+
+.price-tag {
+    font-family: "Lato";
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #757DE8;
+}
+
+.light-border {
+    border-bottom: 1px solid #EDEFF2;
+}
+
+.accept-button-text {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 20px;
+    align-self: center;
+    color: #039855;
+}
+
+.decline-button-text {
+    color: #E11515;
+}
+.side-bar {
+    height: 580px;
+}
+
+.avatar-container {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 85px;
+    padding: 3px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.user-name {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.available-button {
+    font-family: "Roboto" !important;
+    font-size: 10px !important;
+    font-weight: 900 !important;
+    line-height: 18px !important;
+    background-color: #757DE8 !important;
+    border: none !important;
+    color: white;
+}
+
+.job-title {
+    color: #ADB8CC;
+    font-family: "Lato";
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.job-details {
+    color: #000000;
+}
+
+.info-type {
+    font-family: "Lato";
+    color: #6B7A99;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.info-desc {
+    font-family: "Lato";
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.skill-button {
+    border: 1px solid #F5F6F7 !important;
+    color: #6B7A99 !important;
+    font-size: 10px !important;
+    font-weight: 900 !important;
+    line-height: 20px !important;
+    background-color: white !important;
+}
+
+
+/* Client Side */
+
+.client-location {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4D5E80;
+}
+
+.add-payment-box {
+    box-shadow: 0px 8px 16px 0px #C8C8C840;
+}
+
+.topbar-container {
+    height: 70px !important;
+    background-color: white;
+    border-bottom: 1px solid #EDEFF2;
+}
+
+.topbar-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-item-active {
+    color: #757DE8;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    align-self: center;
+    border-bottom: 1px solid #757DE8;
+}
+
+.navbar-item {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    align-self: center;
+    color: #7D8FB3;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #7D8FB3;
+}
+.notification-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Lato";
+}
+
+.dropzone-container {
+    background-color: #F2F2FD;
+    border: 2px dashed #757DE8 !important;
+    height: 115px;
+}
+
+.drag-drop-files {
+    font-weight: 500;
+    font-size: 12px;
+    color: #757DE8;
+    line-height: 16px;
+}
+
+.OR-text {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #A7A7A7;
+}
+
+.modal-container {
+    background-color: #F5F5F5!important;
+}
+
+.experience-container {
+    background-color: #F5F5F5;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+}
+
+.company-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+}
+
+.progress {
+    width: 14px;
+    position: relative;
+}
+
+.progress-ball {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5%;
+}
+
+.phase-name-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    ;
+}
+
+.step-counter {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7D8FB3;
+    ;
+}
+
+.phone-verify-ib {
+    height: 75px !important;
+    width: 75px !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 22px !important;
+    color: #757DE8 !important;
+    background-color: #F2F2FD !important;
+    border: 2px solid #757DE8 !important;
+}
+
+.resend-button {
+    border: 1px solid #F5F6F7 !important;
+    background-color: white !important;
+    color: #6B7A99 !important;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.title-container h3 {
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title-container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7D8FB3;
+}
+
+.input-text {
+    color: #7D8FB3 !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.input-text::placeholder {
+    color: #7D8FB3 !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text-area-text::placeholder {
+    color: #7D8FB3 !important;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.text-area-text {
+    color: #7D8FB3 !important;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.description-help {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7D8FB3;
+}
+
+.title-container h3 {
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title-container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7D8FB3;
+}
+
+.input-text {
+    color: #7D8FB3 !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.input-text::placeholder {
+    color: #7D8FB3 !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text-area-text::placeholder {
+    color: #7D8FB3 !important;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.text-area-text {
+    color: #7D8FB3 !important;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.description-help {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7D8FB3;
+}
+
+.skill-button {
+    background-color: #7D8FB3;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+    padding: 1px 20px;
+}
+
+ 
+
+.client-side-main{
+    
+       background-image: url("../../../assets/images/backgroud-robotic-hand.png");
+       background-position: center;
+       background-size: center;
+       background-repeat: no-repeat;
+       box-shadow: inset 0 0 0 2000px rgba(245, 245, 245, 0.4)
+
+   
+}
+
+.questions-progress {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757DE8;
+}
+
+.question {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    text-align: center;
+}
+
+.questionaire-select {
+    border: 1px solid #F5F6F7;
+    box-shadow: none;
+    outline: none;
+    background: white;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 30px;
+    color: #757DE8;
+}
+ 
+
+/* styles.css */
+
+.questionnaire-check {
+    border: 1px solid #F5F6F7;
+    box-shadow: none;
+    outline: none;
+    background: white;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 30px;
+    color: #757DE8;
+    position: relative;
+    padding-right: 25px;
+    /* Add padding to accommodate the SVG */
+    cursor: pointer;
+}
+.custom-input-box{
+    border: 1px solid #757DE8;
+}
+ 
+/* Add a border when the div is checked */
+
+.questionnaire-check.selected {
+    border: 2px solid #757DE8;
+}
+
+.checkIcon {
+    position: absolute;
+    top: -25px;
+    /* Adjust the positioning of the SVG to overlap with the top border */
+    right: -5px;
+    /* Adjust the positioning of the SVG to overlap with the right border */
+    display: none;
+    width: 60px;
+    height: 60px;
+    /* Initially hide the SVG */
+}
+
+
+/* Show the SVG when the "selected" class is present */
+
+.questionnaire-check.selected .checkIcon {
+    display: block;
+}
+
+.logo-png {
+    width: 125px !important;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.dashboard-welcome {
+    background: linear-gradient(to right, rgba(132, 138, 215, 0%), rgba(208, 212, 255, 100%));
+    height: 150px;
+}
+
+.greetings-title {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px !important;
+    line-height: 22px;
+}
+
+.greetings-text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 20px;
+    color: #5C5C5C;
+}
+
+.dashboard-notification {
+    background-color: #757DE8;
+    height: 160px;
+}
+
+.current-project-title {
+    font-weight: 900;
+}
+
+.current-projet-below-text {
+    font-size: 14px;
+}
+
+.view-all {
+    color: #757DE8;
+}
+
+.status-area {
+    height: 55px;
+}
+
+.custom-progress {
+    height: 25px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.custom-progress-bar {
+    width: 100%;
+    background-color: #C6C7F8;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.progress-bar-text {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4D5E80;
+    text-align: center;
+}
+
+.job-post {
+    box-shadow: 60px 0px 120px 0px #F4F4F4;
+}
+
+.upper-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}
+
+.lower-text {
+    font-weight: 400;
+}
+
+.notification-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}
+
+.notification-time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}
+
+.search-box {
+    border: 1px solid #F5F6F7;
+    color: #ADB8CC;
+    width: 90%;
+    box-shadow: 0px 2px 5px #26334D08;
+}
+
+.search-box-text {
+    font-family: "Lato";
+}
+
+.search-box-text::placeholder {
+    font-family: "Lato";
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    color: #ADB8CC;
+}
+
+.search-button {
+    outline: none;
+    box-shadow: 0px 2px 5px #26334D08;
+    border: 1px solid #F5F6F7;
+}
+
+.job-post-text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #5C5C5C;
+}
+
+.payment-verified-text {
+    font-weight: 900;
+    font-family: "Lato";
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.job-post-info-text {
+    font-weight: 700;
+    font-family: "Lato";
+    font-size: 10px;
+    line-height: 16px;
+    color: #6B7A99;
+}
+
+.verified-status {
+    border: 1px solid #F5F6F7;
+    color: #039855;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 20px;
+    background-color: white;
+}
+
+.details-button {
+    border: 1px solid #F5F6F7;
+    box-shadow: none;
+    border-radius: 30px;
+    background-color: white;
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757DE8;
+    padding: 15px 30px;
+}
+
+.save-later {
+    box-shadow: none;
+    border: 1px solid #F5F6F7;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+
+.skills-head {
+    color: black;
+    font-family: "Lato";
+    font-size: 12px !important;
+    line-height: 16px !important;
+    font-weight: 700 !important;
+}
+
+.job-skills {
+    color: #6B7A99;
+    border: 1px solid #F5F6F7;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px #26334D08;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.vvlogo {
+    width: 120px;
+}
+
+.check-inbox-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.email-png-img {
+    width: 200px;
+    height: 200px;
+}
+
+.thank-you-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.not-you-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sign-up-again-text {
+    color: #757DE8;
+    font-weight: 700;
+}
+
+.button {
+    border: none;
+    padding: 15px, 30px, 15px, 30px;
+    height: 50px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.resend-button {
+    background-color: #757DE8;
+    color: #FFFFFF !important;
+}
+
+.go-to-email {
+    background-color: #FFFFFF;
+    color: #757DE8 !important;
+    border: 2px solid #F5F6F7;
+}
+
+.main-div {
+    background-image: url("../../../assets/images/freelancer-bg.png");
+    background-position: center;
+    background-size: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(245, 245, 245, 0.4)
+}
+
+.vistu-vista-logo {
+    width: 120px;
+}
+
+
+/* Login.css */
+
+@media (max-width: 768px) {
+    .logo {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+.profile-title-container {
+    height: 66px;
+}
+
+.profile-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.profile-title-para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.title-bold {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+}
+
+.custom-edit-button {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background: #F2F2FD;
+}
+
+.logo {
+    width: 50px;
+}
+/* Login.css */
+
+@media (max-width: 768px) {
+    .logo {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}

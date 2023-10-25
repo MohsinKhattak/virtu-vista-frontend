@@ -1,0 +1,11 @@
+.accept-button-text {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 20px;
+    align-self: center;
+    color: #039855;
+}
+
+.decline-button-text {
+    color: #E11515;
+}

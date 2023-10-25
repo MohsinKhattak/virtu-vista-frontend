@@ -1,0 +1,22 @@
+.chatbox {
+    position: relative;
+}
+
+.chat-receive {
+    background-color: #757DE8;
+}
+
+.chat-send {
+    background-color: #F6F6F6;
+}
+
+.mesasge-type-container {
+    position: absolute;
+    bottom: 20px;
+    width: 55%;
+}
+
+.message-type-area {
+    border: 1px solid #F5F6F7;
+    background-color: white;
+}

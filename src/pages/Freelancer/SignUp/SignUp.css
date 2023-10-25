@@ -1,0 +1,13 @@
+ .logo {
+     width: 50px;
+ }
+ /* Login.css */
+ 
+ @media (max-width: 768px) {
+     .logo {
+         display: flex !important;
+         flex-direction: column !important;
+         align-items: center !important;
+         justify-content: center !important;
+     }
+ }

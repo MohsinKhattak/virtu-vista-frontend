@@ -1,0 +1,17 @@
+ .logo-png {
+     width: 125px !important;
+     position: absolute;
+     left: 40px;
+     top: 40px;
+ }
+
+ .client-side-main{
+     
+        background-image: url("../../../assets/images/backgroud-robotic-hand.png");
+        background-position: center;
+        background-size: center;
+        background-repeat: no-repeat;
+        box-shadow: inset 0 0 0 2000px rgba(245, 245, 245, 0.4)
+ 
+    
+ }

@@ -1,0 +1,11 @@
+.price-tag {
+    font-family: "Lato";
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #757DE8;
+}
+
+.light-border {
+    border-bottom: 1px solid #EDEFF2;
+}

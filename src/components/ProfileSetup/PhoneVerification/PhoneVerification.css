@@ -1,0 +1,19 @@
+.phone-verify-ib {
+    height: 75px !important;
+    width: 75px !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 22px !important;
+    color: #757DE8 !important;
+    background-color: #F2F2FD !important;
+    border: 2px solid #757DE8 !important;
+}
+
+.resend-button {
+    border: 1px solid #F5F6F7 !important;
+    background-color: white !important;
+    color: #6B7A99 !important;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 20px;
+}

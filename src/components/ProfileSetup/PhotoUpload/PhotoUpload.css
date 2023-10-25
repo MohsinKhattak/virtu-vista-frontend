@@ -1,0 +1,43 @@
+.title-container h3 {
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title-container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7D8FB3;
+}
+
+.input-text {
+    color: #7D8FB3 !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.input-text::placeholder {
+    color: #7D8FB3 !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text-area-text::placeholder {
+    color: #7D8FB3 !important;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.text-area-text {
+    color: #7D8FB3 !important;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.description-help {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7D8FB3;
+}

@@ -1,0 +1,71 @@
+.dashboard-notification {
+    background-color: #757DE8;
+    height: 160px;
+}
+
+.current-project-title {
+    font-weight: 900;
+}
+
+.current-projet-below-text {
+    font-size: 14px;
+}
+
+.view-all {
+    color: #757DE8;
+}
+
+.status-area {
+    height: 55px;
+}
+
+.custom-progress {
+    height: 25px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.custom-progress-bar {
+    width: 100%;
+    background-color: #C6C7F8;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.progress-bar-text {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4D5E80;
+    text-align: center;
+}
+
+.upper-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}
+
+.lower-text {
+    font-weight: 400;
+}
+
+.notification-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}
+
+.notification-time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}

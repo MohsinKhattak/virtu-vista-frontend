@@ -1,0 +1,21 @@
+.modal-container {
+    background-color: #F5F5F5!important;
+}
+
+.experience-container {
+    background-color: #F5F5F5;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+}
+
+.company-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+}

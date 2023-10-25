@@ -1,0 +1,227 @@
+.freelance-card {
+    border: 2px solid white;
+}
+
+.freelance-card:hover {
+    border: 2px solid #757DE8 !important;
+}
+
+.username-text {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Lato";
+}
+
+.availablity-text {
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+}
+
+.job-skills-green {
+    color: #28A745;
+    background-color: #EAFFEF;
+}
+
+.job-skills-yellow {
+    color: #898C00;
+    background-color: #FFF7E0;
+}
+
+.job-skills-grey {
+    color: #6B7A99;
+    background-color: #E7ECFF;
+}
+
+.project-details {
+    background-color: #F5F6FF;
+}
+
+.hourly-rate {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757DE8;
+}
+
+.more-details-button {
+    box-shadow: none;
+    border: 2px solid #F5F6F7;
+    background-color: white;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.custom-label {
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    font-family: "Lato" !important;
+    color: #4D5E80 !important;
+}
+
+.ib-placeholder {
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    font-family: "Lato" !important;
+    color: #7D8FB3 !important;
+}
+
+.ib-placeholder::placeholder {
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    font-family: "Lato" !important;
+    color: #7D8FB3 !important;
+}
+
+.custom-radio:checked {
+    background-color: #757DE8 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.custom-radio:active .custom-radio {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.congrats-text {
+    font-weight: 500;
+    font-size: 18px;
+    
+    font-family: "Lato";
+}
+
+.below-congrats {
+    font-weight: 400;
+    font-size: 14px;
+     
+    color: #5C5C5C;
+    font-family: "Lato";
+}
+
+
+/* Track (the area where the scrollbar is located) */
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust the width of the scrollbar */
+}
+
+
+/* Handle (the draggable part of the scrollbar) */
+
+ ::-webkit-scrollbar-thumb {
+    background: #D9D9D9;
+    /* Change to your desired color */
+    border-radius: 5px;
+    /* Adjust the radius for a rounded appearance */
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #D9D9D9;
+    /* Change to the same color as normal to maintain consistency */
+}
+
+
+/* Track when the scrollbar is not hovered */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Change to the background color you prefer */
+    border-radius: 5px;
+    /* Match the radius for consistency */
+}
+
+
+/* Track on hover */
+
+ ::-webkit-scrollbar-track:hover {
+    background: #f1f1f1;
+    /* Change to the same color as normal to maintain consistency */
+}
+
+
+/* Set the maximum height for the scrollbar */
+
+.modal-body {
+    max-height: 90%;
+    /* Adjust as needed */
+    overflow-y: auto;
+}
+
+.below-greeting-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Lato";
+}
+
+.freelancer-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #000000;
+}
+
+.experience-text {
+    font-style: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.recent-job-post-text {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 20px;
+    color: #7D8FB3;
+    font-weight: 700;
+}
+
+.recent-job-post-secondary-text {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 20px;
+    color: #7D8FB3;
+    font-weight: 400;
+}
+
+.chat-anchor {
+    color: #3C4C97;
+    border-bottom: 1px solid #3C4C97;
+    font-weight: 700;
+}
+
+.chats-available {
+    background-color: #FCFCFC;
+}
+
+.chat-username {
+    font-size: 14px;
+    font-family: "Lato";
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.chat-time {
+    color: #627D98 !important;
+    font-size: 10px;
+}
+
+.chat-message {
+    font-size: 12px;
+    color: #334E68;
+    font-weight: 400;
+}

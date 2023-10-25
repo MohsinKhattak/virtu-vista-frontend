@@ -1,0 +1,51 @@
+ .vvlogo {
+     width: 120px;
+ }
+ 
+ .check-inbox-text {
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 28px;
+ }
+ 
+ .email-png-img {
+     width: 200px;
+     height: 200px;
+ }
+ 
+ .thank-you-text {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 26px;
+ }
+ 
+ .not-you-text {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+ }
+ 
+ .sign-up-again-text {
+     color: #757DE8;
+     font-weight: 700;
+ }
+ 
+ .button {
+     border: none;
+     padding: 15px, 30px, 15px, 30px;
+     height: 50px;
+     font-weight: 900;
+     font-size: 14px;
+     line-height: 20px;
+ }
+ 
+ .resend-button {
+     background-color: #757DE8;
+     color: #FFFFFF !important;
+ }
+ 
+ .go-to-email {
+     background-color: #FFFFFF;
+     color: #757DE8 !important;
+     border: 2px solid #F5F6F7;
+ }

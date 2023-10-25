@@ -1,0 +1,11 @@
+.progress {
+    width: 14px;
+    position: relative;
+}
+
+.progress-ball {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5%;
+}

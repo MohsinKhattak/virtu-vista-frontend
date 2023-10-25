@@ -1,0 +1,32 @@
+.topbar-container {
+    height: 70px !important;
+    background-color: white;
+    border-bottom: 1px solid #EDEFF2;
+}
+
+.topbar-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-item-active {
+    color: #757DE8;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    align-self: center;
+    border-bottom: 1px solid #757DE8;
+}
+
+.navbar-item {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    align-self: center;
+    color: #7D8FB3;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #7D8FB3;
+}

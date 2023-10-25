@@ -1,0 +1,191 @@
+.dashboard-welcome {
+    background: linear-gradient(to right, rgba(132, 138, 215, 0%), rgba(208, 212, 255, 100%));
+    height: 150px;
+}
+
+.greetings-title {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px !important;
+    line-height: 22px;
+}
+
+.greetings-text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 20px;
+    color: #5C5C5C;
+}
+
+.dashboard-notification {
+    background-color: #757DE8;
+    height: 160px;
+}
+
+.current-project-title {
+    font-weight: 900;
+}
+
+.current-projet-below-text {
+    font-size: 14px;
+}
+
+.view-all {
+    color: #757DE8;
+}
+
+.status-area {
+    height: 55px;
+}
+
+.custom-progress {
+    height: 25px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.custom-progress-bar {
+    width: 100%;
+    background-color: #C6C7F8;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.progress-bar-text {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4D5E80;
+    text-align: center;
+}
+
+.job-post {
+    box-shadow: 60px 0px 120px 0px #F4F4F4;
+}
+
+.upper-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}
+
+.lower-text {
+    font-weight: 400;
+}
+
+.notification-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}
+
+.notification-time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}
+
+.search-box {
+    border: 1px solid #F5F6F7;
+    color: #ADB8CC;
+    width: 90%;
+    box-shadow: 0px 2px 5px #26334D08;
+}
+
+.search-box-text {
+    font-family: "Lato";
+}
+
+.search-box-text::placeholder {
+    font-family: "Lato";
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    color: #ADB8CC;
+}
+
+.search-button {
+    outline: none;
+    box-shadow: 0px 2px 5px #26334D08;
+    border: 1px solid #F5F6F7;
+}
+
+.job-post-text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #5C5C5C;
+}
+
+.payment-verified-text {
+    font-weight: 900;
+    font-family: "Lato";
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.job-post-info-text {
+    font-weight: 700;
+    font-family: "Lato";
+    font-size: 10px;
+    line-height: 16px;
+    color: #6B7A99;
+}
+
+.verified-status {
+    border: 1px solid #F5F6F7;
+    color: #039855;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 20px;
+    background-color: white;
+}
+
+.details-button {
+    border: 1px solid #F5F6F7;
+    box-shadow: none;
+    border-radius: 30px;
+    background-color: white;
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757DE8;
+    padding: 15px 30px;
+}
+
+.save-later {
+    box-shadow: none;
+    border: 1px solid #F5F6F7;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+
+.skills-head {
+    color: black;
+    font-family: "Lato";
+    font-size: 12px !important;
+    line-height: 16px !important;
+    font-weight: 700 !important;
+}
+
+.job-skills {
+    color: #6B7A99;
+    border: 1px solid #F5F6F7;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px #26334D08;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 20px;
+}
