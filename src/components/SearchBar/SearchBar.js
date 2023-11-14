@@ -6,6 +6,7 @@ import closeIcon from "../../assets/icons/cross.svg";
 import congratsImage from "../../assets/images/congratulations.png";
 import NewQuestionScreen from "../../pages/Client/NewQuestionScreen/NewQuestionScreen";
 function SearchBar({ role }) {
+  role = "client";
   return (
     <div>
       <form
